@@ -10,7 +10,7 @@ const Container = styled.div`
   width: 500px;
 `;
 
-const PageContainer: React.FC<Props> = ({ children }) => {
+const PageContainer: React.FC<Props> = ({ children }): JSX.Element => {
   return (
     <Container>
       {children}
