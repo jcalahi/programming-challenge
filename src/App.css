@@ -1,0 +1,10 @@
+@import '~antd/dist/antd.css';
+
+.ant-list-item {
+  border: 1px solid #f0f0f0;
+}
+
+.ant-list-item:hover {
+  cursor: pointer;
+  background-color: #f9f9f9;
+}
